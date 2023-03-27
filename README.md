@@ -12,3 +12,7 @@ db.restaurants.find({'borough':'Bronx'}).skip(2).limit(5)
 - Distinct
 ```
 db.restaurants.distinct('borough')
+
+2 servers
+1 with heroku app + nodejs
+1 with database
